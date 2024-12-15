@@ -25,7 +25,7 @@ export default function Header() {
         className="h-full mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8 "
       >
         <div className="flex lg:flex-1 self-center text-center">
-          <Link to="/" className="-m-1.5  text-[1.25rem] spacing-1 font-[549]">
+          <Link to="/" className=" text-[1.25rem] spacing-1 font-[549]">
             <span className="sr-only">Your Company</span>
             Birehan Zewde
           </Link>

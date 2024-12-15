@@ -7,8 +7,10 @@ const App: React.FC = () => {
   return (
     <ThemeProvider>
       <Routes>
+
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<HomePage />} />
+
           <Route path="*" element={<div>404 Not Found</div>} />
         </Route>
         <Route path="*" element={<div>404 Not Found</div>} />
